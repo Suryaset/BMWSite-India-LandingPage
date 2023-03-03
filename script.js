@@ -3,10 +3,10 @@ const btmnav = document.getElementById("btmnav");
 const feature = document.getElementById("feature")
 
 
-serve.addEventListener("mousemove", () => {
+serve.addEventListener("mouseover", () => {
     btmnav.style.display = "none" ;
 });
 
-feature.addEventListener("mousemove", () => {
+feature.addEventListener("mouseover", () => {
     btmnav.style.display = "flex" ;
 });
